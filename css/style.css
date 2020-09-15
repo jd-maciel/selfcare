@@ -1,0 +1,849 @@
+
+
+.site{
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+
+    margin-left: 15%;
+    
+    /*background-color: rgb(60, 255, 0);*/
+}
+
+
+.menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 55px;
+    /*background-color: rgb(201, 201, 201);*/
+}
+
+.banner{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 300px;
+    /*background-color: rgb(103, 196, 115);*/
+    background-image: url(../images/banner.png);   
+     
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.promo{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 55px;
+    /*background-color: blue;*/
+    border-bottom: 0.2px solid #A5A1A1;
+    
+}
+
+
+.conteudo{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*::::::::::::::::::::::MENU TOPO - COMEÇO::::::::::::::::::::::::::::::*/
+
+.logo{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    /*background-color: deeppink;*/
+
+    margin-left: 5%;
+}
+
+.divEstrela{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    /*background-color: rgb(129, 84, 108);*/
+    padding-top: 10%;
+    background-image: url(../images/iconEstrela.png);
+    background-size:  70%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.divLogo{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    /*background-color: rgb(141, 128, 135);*/
+    padding-top: 10%;
+    padding-left: 0px;
+
+    background-image: url(../images/iconLogo.png);
+    background-size:  70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.divMenu{
+    position: relative;
+    float: right;
+    width: 6%;
+    height: 100%;
+    padding-top: 1%;
+    
+
+}
+
+.vetorBusca{
+    /*background-color: deeppink;*/
+    background-image: url(../images/iconLupa.png);
+    background-size:  30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.vetorUsuario{
+    /*background-color: rgb(161, 63, 116);*/
+
+    background-image: url(../images/iconUser.png);
+    background-size:  30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vetorCompra{
+    /*background-color: rgb(160, 152, 41);*/
+
+    background-image: url(../images/iconCompras.png);
+    background-size:  30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*::::::::::::::::::::::::MENU TOPO - FIM:::::::::::::::::::::::::::::::*/
+
+/*::::::::::::::::::::::::::::::::::::::::::::*/
+.promoPromo{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    /*background-color: darkturquoise;*/
+    margin-left: 8%;
+    padding-top: 1%;
+    
+}
+
+.promoProduto{
+    position: relative;
+    float: right;
+    width: 10%;
+    height: 100%;
+    /*background-color: darkturquoise;*/
+    
+    padding-top: 1%;
+}
+
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*::::::::::::::::IMGENS::::::::::::::*/
+
+
+.imagem{
+    position: relative;
+    float: center;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+
+    margin-left: 25%;
+    
+}
+
+.imagemImagem{
+    position: relative;
+    float: bottom;   
+    width: 100%;
+    height: 75%;
+    /*background-color: darkslateblue;*/  
+
+    background-size:  100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imagemTexto{
+    position: relative;
+    float: bottom;   
+    width: 100%;
+    height: 25%;
+    /*background-color: darkred;*/
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.bx1{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+
+#corTeste1{
+    /*background-color: blue;*/
+    
+}
+
+#imagemUm{
+    background-image: url(../images/img1.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx2{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#corTeste2{
+    /*background-color: rgb(42, 42, 88);*/
+}
+
+#imagemDois{
+    background-image: url(../images/img2.jpg);
+    
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+
+.bx3{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#corTeste3{
+    /*background-color: rgb(61, 126, 55);*/
+}
+
+#imagemTres{
+    background-image: url(../images/img3.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx4{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#corTeste4{
+    /*background-color: rgb(67, 67, 78);*/
+}
+
+#imagemQuatro{
+    background-image: url(../images/img4.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+
+.bx5{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#corTeste5{
+    /*background-color: rgb(82, 9, 78);*/
+}
+
+#imagemCinco{
+    background-image: url(../images/img5.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx6{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#corTeste6{
+    /*background-color: rgb(20, 10, 20);*/
+}
+
+#imagemSeis{
+    background-image: url(../images/img6.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx7{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#corTeste7{
+    /*background-color: rgb(184, 194, 41);*/
+}
+
+#imagemSete{
+    background-image: url(../images/img7.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx8{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#corTeste8{
+    /*background-color: rgb(212, 96, 28);*/
+}
+
+#imagemOito{
+    background-image: url(../images/img8.jpg);
+    
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.bx9{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#corTeste9{
+    /*background-color: rgb(58, 8, 19);*/
+}
+
+#imagemNove{
+    background-image: url(../images/img9.jpg);
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::*/
+
+.rodape{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    background: #F9F9F9;
+}
+
+.rodape1{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 70%;
+    /*background-color: deeppink;*/
+}
+
+.rodape2{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30%;
+    /*background-color: rgb(145, 105, 126);*/
+    border-top: 0.2px solid #A5A1A1;
+}
+
+.contato{
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 300px;
+    /*background-color: deepskyblue;*/
+
+    margin-top: 20px;
+    margin-left: 40px;
+    
+    font-weight: 600;
+    font-size: 25px;
+    
+    padding-left: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.email{
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 300px;
+    /*background-color: deepskyblue;*/
+
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.email1{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 40%;
+    /*background-color: dimgrey;*/
+}
+
+.divNew{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+   /* background-color: rgb(190, 21, 21);*/
+
+    margin-top: 95px;
+}
+
+
+.email2{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60%;
+    /*background-color: rgb(138, 49, 49);*/
+}
+
+.pesquisa{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 40px;
+    /*background-color: firebrick;*/
+
+    margin-top: 10px;
+
+}
+.botao{
+
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 40px;
+    /*background-color: rgb(36, 34, 178);*/
+    margin-top: 10px;
+
+}
+
+.btn{
+    width: 120px;
+}
+
+
+
+
+
+
+/*:::::::::::::::::::::::::::::::::::::*/
+.cartaoR{
+    position: relative;
+    float: right;
+    width: 100px;
+    height: 100px;
+    /*background-color: deepskyblue;*/
+
+    margin-top: 1%;
+
+    background-size:  50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.socialL{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 100px;
+    /*background-color: deepskyblue;*/
+
+    margin-top: 1%;
+
+    background-size:  50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+#ins{
+    /*background-color: deepskyblue;*/
+    margin-left: 5%;
+    background-image: url(../images/iconInsta.png);
+    
+}
+
+#fac{
+    /*background-color: rgb(0, 47, 255);*/
+    background-image: url(../images/iconFace.png);
+}
+
+#master{
+    /*background-color: rgb(255, 251, 0);*/
+   
+    background-image: url(../images/iconMaster.png);
+}
+
+#pay{
+   /* background-color: rgb(100, 7, 12);*/
+   background-image: url(../images/iconPaypal.png);
+}
+
+#vis{
+   /* background-color: rgb(56, 190, 30);*/
+   background-image: url(../images/iconVisa.png);
+   margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 574px) {
+    .site{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .menu{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .banner{
+        height: 110px;
+        background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;    
+        
+    }
+
+    .promoPromo{        
+        width: 20%;
+        height: 100%;
+        /*background-color: darkturquoise;*/
+        padding-top: 3%;
+        
+        
+        
+    }
+    
+    .promoProduto{
+        width: 20%;
+        height: 100%;
+        /*background-color: darkturquoise;*/
+        padding-top: 3%;
+
+        margin-right: 4%;
+    }
+
+    .bx1{
+        
+        width: 50%;
+        height: 300px;    
+    }
+    
+    .bx2{        
+        width: 50%;
+        height: 300px;  
+        
+    }
+
+    .bx3{
+        
+        width: 50%;
+        height: 300px;    
+    }
+    
+    .bx4{        
+        width: 50%;
+        height: 300px;  
+        
+    }
+
+    .bx5{
+        
+        width: 50%;
+        height: 300px;    
+    }
+    
+    .bx6{        
+        width: 50%;
+        height: 300px;  
+        
+    }
+
+    .bx7{
+        
+        width: 50%;
+        height: 300px;    
+    }
+    
+    .bx8{        
+        width: 50%;
+        height: 300px;  
+        
+    }
+
+    .bx9{        
+        width: 50%;
+        height: 300px;  
+        
+    }
+
+    .conteudo{        
+        height: 1500px;
+        
+    }
+
+
+    .rodape{        
+        width: 100%;
+        
+        
+    }
+    
+    .rodape1{        
+        width: 100%;
+        height: 520px;
+        
+    }
+    
+    .rodape2{
+        width: 100%;
+        height: 80px;
+        
+    }
+
+    .contato{       
+        width: 500px;
+        height: 200px;
+        
+    
+        margin-top: 00px;
+        margin-left: 00px;
+                
+        padding-left: 3px;  
+        
+        margin-left: 5%;
+        font-size: 18px;
+    
+    }
+
+    
+    .email{   
+        width: 100%;
+        height: 300px;   
+
+        margin-top: 00px;
+        margin-right: 00px;   
+
+    }
+
+    .cartaoR{       
+        width: 50px;
+        height: 50px;
+        /*background-color: deepskyblue;*/
+    
+        
+    
+        background-size:  50%;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .socialL{
+        width: 50px;
+        height: 50px;
+        /*background-color: deepskyblue;*/    
+        
+    
+        background-size:  50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    
+    }
+    
+
+    .vetorBusca{       
+        background-size:  50%; 
+        margin-right: 6%;      
+        
+    }
+    
+    .vetorUsuario{       
+        background-size:  50%;
+    }
+    
+    .vetorCompra{        
+        background-size:  50%;
+        
+    }
+
+
+    .logo{
+        width: 20%;  
+        margin-left: 5%;
+    }
+    
+    .divEstrela{
+        width: 30%;
+        height: 100%;        
+        background-size: 70%;       
+    
+    }
+    
+    .divLogo{
+        width: 70%;
+        height: 100%;
+        background-size:  100%;
+        
+    }
+    
+    .divMenu{
+        width: 8%;
+        height: 100%;
+        padding-top: 1%;
+        
+        
+    
+    }
+    
+    .botao{
+        width: 90%;
+        height: 40px;
+        /*background-color: rgb(36, 34, 178);*/
+        margin-top: 10px;
+        margin-left: 5%;
+
+    
+    }
+
+    .pesquisa{
+        width: 90%;
+        height: 40px;
+        /*background-color: firebrick;*/
+    
+        margin-top: 10px;
+        margin-left: 5%;
+    
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .divNew{
+        width: 150px;
+        height: 100px;
+        /*background-color: rgb(190, 21, 21);*/
+    
+        margin-top: 95px;
+        margin-left: 5%;
+
+
+    }
+
+}
